@@ -39,12 +39,16 @@ class Solution {
     // in case the linked list isn't reversed
     public ListNode reverseList(ListNode head){
         if(head==null) return null;
-        ListNode pre=null;
+        ListNode pre = null;
         ListNode next;
         while(head!=null){
+            // save head's next
             next=head.next;
+            // reverse the direction 
             head.next=pre;
+            // move forward 1 node
             pre=head;
+            // move forward from head
             head=next;
         }
         return pre;
