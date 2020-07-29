@@ -1,0 +1,29 @@
+1) Depth First Search
+- transform a string/many strings to a tree and apply depth first Search
+
+2) Breadth first search:
+- take a tree and print it level by level
+
+1 vs 2:
+the order to traverse child nodes. 
+dfs: use stack
+bfs: use queue
+
+3) Matching brackets problem
+- matching brackets and whats the next bracket
+- use a stack, if stack not empty, then something isn't matched
+
+4) Making use of Hash Tables
+- keep track of what I already visited. 
+- keep track of numbers in array. cache values
+- Dynamic programming - or use array to store values
+
+5) Variables/Pointers manipulation
+- traverse a string from left to right 
+- traverse a linked list with 2 Pointers
+- ex) find the longest palindramtic substring in a string, traverse full string every letter start 2 pointers expanding outward
+
+6)
+
+
+
